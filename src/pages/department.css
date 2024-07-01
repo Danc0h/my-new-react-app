@@ -1,0 +1,18 @@
+/* department.css */
+ul.department-list {
+  list-style-type: disc; /* Use bullets */
+  padding-left: 20px; /* Add padding to align bullets */
+  margin: 0; /* Remove default margin */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Align items to the start */
+}
+
+ul.department-list li {
+  margin-bottom: 10px; /* Add spacing between the list items */
+  width: 100%; /* Ensure list items take the full width */
+}
+
+ul.department-list li button {
+  width: auto; /* Make buttons take their natural width */
+}
